@@ -1,5 +1,5 @@
-pipeline{
-  agent any{
+pipeline {
+  agent any
   stages{
     stage('init'){
       steps{
@@ -16,6 +16,5 @@ pipeline{
         echo "Deployed"
       }
     }  
-  }
   }
 }
